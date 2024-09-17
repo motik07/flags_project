@@ -1,0 +1,39 @@
+* {
+  font-family: "Calibri" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+}
+
+#id_sider_btn {
+  cursor: pointer !important;
+}
+
+/* bona-nova-sc-regular - latin */
+.font-bona-important {
+  font-family: "Bona Nova SC" !important;
+}
+
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Bona Nova SC";
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/bona-nova-sc-v1-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Bona Nova SC";
+  font-style: normal;
+  font-weight: 700;
+  src: url("fonts/bona-nova-sc-v1-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+.txt-shadow {
+    text-shadow: 2px 0px 3px black !important;
+}
+
+.box-shadow {
+    box-shadow: 4px 1px 12px black !important;
+}
